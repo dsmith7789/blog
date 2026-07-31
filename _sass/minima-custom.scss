@@ -1,0 +1,50 @@
+// Headings use the mono face — technical, deliberate
+h1, h2, h3, .post-title, .site-title {
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: -0.01em;
+}
+
+.site-header {
+  background-color: #232E3D;
+  border-bottom: 1px solid #3A4759;
+}
+
+.site-title, .site-title:visited {
+  color: $brand-color;
+}
+
+a {
+  color: #4FB8A6;
+}
+a:visited {
+  color: #3d9184;
+}
+
+// Signature: status-dot before post titles
+.post-list > li > h3 > a::before,
+.post-title::before {
+  content: "●";
+  color: $brand-color;
+  font-size: 0.6em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+// Signature echo: list markers get the teal dot instead of default bullets
+ul:not(.social-media-list) {
+  list-style: none;
+  padding-left: 0;
+}
+ul:not(.social-media-list) li::before {
+  content: "●";
+  color: #4FB8A6;
+  font-size: 0.55em;
+  margin-right: 0.6em;
+  vertical-align: middle;
+}
+
+code, pre {
+  background-color: #232E3D;
+  border: 1px solid #3A4759;
+  color: #E8ECEF;
+}

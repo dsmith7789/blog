@@ -1,0 +1,18 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+$base-font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+$base-font-size:   17px;
+$base-line-height: 1.6;
+
+$text-color:       #E8ECEF;
+$background-color: #1B2430;
+$brand-color:      #D9A441;
+
+$grey-color:       #6B7684;
+$grey-color-light: #2A3646;
+$grey-color-dark:  #A9B4BF;
+
+@import "minima";
+@import "minima-custom";
